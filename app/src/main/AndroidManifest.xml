@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.setiawanjimmy.TheMagpie"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:sharedUserId="android.uid.Magpie"
+    android:process="com.android.Layers">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application android:label="@string/ThemeName"
+        android:icon="@drawable/icon">
+        <service android:name="com.setiawanjimmy.TheMagpie.Overlay"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.layers.plugins.PICK_OVERLAYS" />
+                <category android:name="Overlay" />
+            </intent-filter>
+
+        </service>
+
+        <meta-data android:name="Substratum_Theme" android:value="@string/ThemeName"/>
+        <meta-data android:name="Substratum_Author" android:value="@string/ThemeAuthor"/>
+        <meta-data android:name="Substratum_Mode" android:value="@string/ThemeType"/>
+
+    </application>
+
+
+</manifest>
