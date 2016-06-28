@@ -1,0 +1,32 @@
+<resources>
+    <string name="PluginVersion">3</string>
+    <!-- Theme Name (has to be used for the naming of the apk´s and zips too-->
+    <string name="ThemeName">Magpie Theme</string>
+
+    <!-- Name of the theme author -->
+    <string name="ThemeAuthor">setiawanjimmy</string>
+
+    <string name="ThemeType">XML</string>
+
+    <!-- Short description of the theme -->
+    <string name="ThemeDescription">ALL in One Theme\n\n\n\nHow to Install : https://plus.google.com/+JimmySetiawan84/posts/7FT5WbDyx4E\n\n\n\nTHIS THEME NEEDS THEME READY GOOGLE APPS! You MUST flash Theme Ready Google Apps Zip! : http://forum.xda-developers.com//android/apps-games/apps-themeable-hangouts-layers-cmte-t3113192/post60850740\n\n\n\nMore info and bug reports for this update : https://plus.google.com/+JimmySetiawan84</string>
+
+    <!-- Changelog -->
+    <string name="ThemeChangelog">Ver 17.4\n\n- Fix Hangouts 10 for Base Dark and Inverted Material\n\n\nVer 17.3\n\nBASE DARK UPDATE!\n\n- re-theme almost every apps to make it much better and up to date!\n\n- add magpie fling icon\n\n- add support for D-FUSE broken headers\n\n\nVer 17.2\n\n- fix circle status bar\n\n\nVer 17.1\n\n- fix latest theme ready G+ ( thanks to David Wilson )\n\n\nVer 17.0\n\nINVERTED MATERIAL UPDATE!\n\n- re-theme almost every apps to make it much better and up to date!\n\n- add magpie fling icon\n\n- add support for D-FUSE broken headers</string>
+
+    <!-- Names of the apps overlayed by a normal Overlay: Normal Overlays are the Overlays which are only available in one color -->
+    <!-- KEEP EMPTY IF YOU DONT HAVE ANY NORMAL OVERLAYS-->
+    <string name="NormalOverlayNames"> </string>
+
+
+
+    <!-- OPTIONAL: Names of apps overlayed by overlays available in different Styles (Style specific Overlays are Overlays which are available in for example different colors or different Styles)-->
+    <!-- KEEP EMPTY IF YOU DONT HAVE ANY STYLE SPECIFIC OVERLAYS-->
+    <string name="StyleSpecificOverlayNames"> </string>
+
+    <!-- OPTIONAL: Styles available for the stylespecific Overlays, for example the colors the Overlays are available in -->
+    <!-- KEEP EMPTY IF YOU DONT HAVE ANY STYLE SPECIFIC OVERLAYS-->
+    <string name="Styles"> </string>
+
+
+</resources>
